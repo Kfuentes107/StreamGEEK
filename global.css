@@ -1,0 +1,282 @@
+/* Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+} 
+
+/* Body Styling */ 
+body { 
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #eee;
+}
+
+/* Logo Styling */
+#logo img {
+    width: 150px; /* Tamaño aumentado */
+}
+
+/* Título Centralizado */
+h1 {
+    margin-top: 10px;
+    color: #FF0000; /* Cambio a rojo */
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Centralizar los enlaces */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-image img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    max-width: 800px; /* Tamaño máximo de la imagen */
+    height: auto;
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #FF0000; /* Rojo vibrante */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #cc0000; /* Rojo más oscuro al pasar el mouse */
+}
+
+/* Quick Links Styling */
+.quick-link {
+    color: #FF0000; /* Rojo vibrante */
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 5px; /* Espacio después del enlace */
+}
+
+.quick-link:hover {
+    color: #cc0000; /* Rojo más oscuro al pasar el mouse */
+}
+
+/* Sobre mí Section */
+#sobre-mi {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#sobre-mi .profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#sobre-mi .bio {
+    flex-grow: 1;
+}
+
+/* Tutorials Section */
+#tutorials .tutorials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tutorial-card {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.tutorial-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Resources Section */
+#resources {
+    padding: 20px;
+}
+
+.resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resource-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resource-item img {
+    width: 40px; /* Tamaño de los logos de los recursos */
+    height: auto;
+}
+
+/* Gallery Section */
+#galeria {
+    padding: 20px;
+}
+
+/* Títulos de la galería */
+.gallery-title {
+    color: #FF0000; /* Rojo vibrante */
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+/* Grid de la galería */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Videos Section Styling */
+.video-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre la miniatura y el enlace */
+}
+
+.video-item img {
+    width: 120px; /* Ajusta el tamaño de las miniaturas */
+    height: auto;
+    border-radius: 5px;
+}
+
+.video-item a {
+    color: #FF0000; /* Rojo vibrante */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.video-item a:hover {
+    color: #cc0000; /* Rojo más oscuro al pasar el mouse */
+}
+
+
+/* Contact Form */
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+#contacto input, #contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Contact Form Section */
+#contacto {
+    padding: 20px;
+    text-align: center;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contacto label {
+    font-weight: bold;
+}
+
+#contacto input, #contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contacto button {
+    padding: 10px;
+    background-color: #FF0000; /* Rojo vibrante */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #cc0000; /* Rojo más oscuro al pasar el mouse */
+}
